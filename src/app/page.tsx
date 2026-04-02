@@ -150,7 +150,7 @@ export default function LandingPage() {
       useInvertedBackground={true}
       buttons={[{ text: "Learn More", href: "/about" }, { text: "Support Us", href: "/donate" }]}
       faqs={[
-        { id: "q1", title: "Who can join MCGI?", content: "MCGI welcomes all Mbaise indigenes at home and in the diaspora who share our commitment to positive growth." },
+        { id: "q1", title: "Who can join MCGI?", content: "MCGI welcomes all Mbaise indigenes at home and in the diaspora who share our commitment to positive growth. [Register here to become a member](/register)" },
         { id: "q2", title: "How can I support projects?", content: "You can support us through donations, volunteering your expertise, or joining our global network chapters." },
         { id: "q3", title: "What is the Signature Centre Project?", content: "It is our landmark project to build a multifunctional hub for education, commerce, and innovation." },
         { id: "q4", title: "Is MCGI registered?", content: "Yes, MCGI is a fully registered global non-profit entity dedicated to transparency and accountability." }
