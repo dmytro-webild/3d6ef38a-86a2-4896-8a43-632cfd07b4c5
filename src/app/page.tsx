@@ -45,7 +45,7 @@ export default function LandingPage() {
       <HeroLogoBillboardSplit
       background={{ variant: "plain" }}
       logoText="MCGI"
-      description="Connecting Mbaise to the world. A global initiative dedicated to sustainable development, service, and social transformation in our homeland."
+      description="Join a network of thousands directly funding life-changing solar water, education, and health infrastructure in Mbaise. Your membership provides the recurring resources needed to transform village-level development today."
       buttons={[
         { text: "Learn More", href: "#about" },
         { text: "Get Involved", href: "#contact" },
