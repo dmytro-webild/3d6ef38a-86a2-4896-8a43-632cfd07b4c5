@@ -45,7 +45,7 @@ export default function LandingPage() {
       <HeroLogoBillboardSplit
       background={{ variant: "plain" }}
       logoText="MCGI"
-      description="Join a network of thousands directly funding life-changing solar water, education, and health infrastructure in Mbaise. Your membership provides the recurring resources needed to transform village-level development today."
+      description="Your contribution directly funds essential solar water, education, and health infrastructure, creating an immediate, measurable improvement in the quality of life for Mbaise families today."
       buttons={[
         { text: "Learn More", href: "#about" },
         { text: "Get Involved", href: "#contact" },
