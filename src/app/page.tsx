@@ -48,6 +48,7 @@ export default function LandingPage() {
       title="Resource Center Highlights"
       description="Our state-of-the-art facility serving the Mbaise community as a central hub for innovation and growth."
       textboxLayout="split"
+      animationType="slide-up"
       items={[
         {
           trigger: "Phase 1: Foundation",          content: "Groundbreaking of the Mbaise Signature Complex, creating the foundation for our digital and physical learning hub.",          imageOne: "https://images.unsplash.com/photo-1594903332560-f3898144061a?q=80&w=800&auto=format&fit=crop"
