@@ -47,8 +47,8 @@ export default function LandingPage() {
       logoText="MCGI"
       description="Join our mission to empower Mbaise families today. Your support funds critical solar water and education infrastructure, delivering immediate, life-changing results for our community—donate or volunteer now to make a lasting impact."
       buttons={[
+        { text: "Support Our Mission", href: "#contact" },
         { text: "Learn More", href: "#about" },
-        { text: "Get Involved", href: "#contact" },
       ]}
       layoutOrder="default"
       imageSrc="http://img.b2bpic.net/free-photo/people-doing-volunteer-work-foodbank_23-2149012250.jpg"
