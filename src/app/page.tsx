@@ -95,12 +95,12 @@ export default function LandingPage() {
       gridVariant="three-columns-all-equal-width"
       useInvertedBackground={false}
       products={[
-        { id: "p1", brand: "Infrastructure", name: "Solar Water Stations", price: "Commissioned", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/person-near-alternative-energy-plant_23-2149192714.jpg", reviewCount: "Operational" },
-        { id: "p2", brand: "Education", name: "Computer Learning Centers", price: "Active", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/woman-looking-girl-answering-standing-near-desk_259150-60249.jpg", reviewCount: "Educating" },
+        { id: "p1", brand: "Solar-Powered Water", name: "Eziudo, Ezinihitte Mbaise", price: "Installation Completed", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BnL2MQ9gSRG06ozeMSAxFTv1Up/uploaded-1775121730804-8tpjiwn0.jpg", reviewCount: "Replicating in Other Mbaise Communities" },
+        { id: "p2", brand: "Education", name: "Computer Learning Centers", price: "Active", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BnL2MQ9gSRG06ozeMSAxFTv1Up/uploaded-1775121730804-hiodgkh4.jpg", reviewCount: "Educating" },
         { id: "p3", brand: "Healthcare", name: "Facility Renovations", price: "Ongoing", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/people-volunteering-donating-facility_23-2148687311.jpg", reviewCount: "Healthier" },
       ]}
       title="Signature Initiatives"
-      description="Key infrastructure projects driving growth in Mbaise."
+      description="Key infrastructure projects driving growth in Mbaise. We have successfully installed a solar-powered water project in Eziudo, Ezinihitte Mbaise, and are actively replicating this model to ensure clean water access across all Mbaise communities."
     />
   </div>
 
