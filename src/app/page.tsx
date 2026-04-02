@@ -67,7 +67,7 @@ export default function LandingPage() {
       <MetricSplitMediaAbout
       useInvertedBackground={false}
       title="Advancing Development in Mbaise"
-      description="To facilitate and engage in sustainable developmental interventions through partnership and community efforts, aimed at promoting the common good of Mbaise People. Founded on principles of unity and service, MCGI unites Mbaise indigenes across 70+ countries."
+      description="To facilitate and engage in sustainable developmental interventions through partnership and community efforts, aimed at promoting the common good of Mbaise People. Building a sustainable future together, MCGI unites Mbaise indigenes across 70+ countries."
       metrics={[
         { value: "70+", title: "Countries Served" },
         { value: "100%", title: "Community Focus" },
