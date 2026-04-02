@@ -53,7 +53,8 @@ export default function LandingPage() {
         { text: "Learn More", href: "#about" },
       ]}
       layoutOrder="default"
-      imageSrc="http://img.b2bpic.net/free-photo/people-doing-volunteer-work-foodbank_23-2149012250.jpg"
+      imageSrc="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=2000&auto=format&fit=crop"
+      imageAlt="Quality education initiative in Mbaise"
       mediaAnimation="blur-reveal"
     />
   </div>
@@ -68,7 +69,8 @@ export default function LandingPage() {
         { value: "100%", title: "Community Focus" },
         { value: "Global", title: "Diaspora Network" },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/women-preparing-box-with-food-donation_23-2148613309.jpg?_wi=1"
+      imageSrc="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=2000&auto=format&fit=crop"
+      imageAlt="Socio-economic transformation project"
       mediaAnimation="slide-up"
       metricsAnimation="slide-up"
     />
@@ -95,12 +97,12 @@ export default function LandingPage() {
       gridVariant="three-columns-all-equal-width"
       useInvertedBackground={false}
       products={[
-        { id: "p1", brand: "Solar-Powered Water", name: "Eziudo, Ezinihitte Mbaise", price: "Installation Completed", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BnL2MQ9gSRG06ozeMSAxFTv1Up/uploaded-1775121730804-8tpjiwn0.jpg", reviewCount: "Replicating in Other Mbaise Communities" },
-        { id: "p2", brand: "Education", name: "Computer Learning Centers & Renovations", price: "Active", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BnL2MQ9gSRG06ozeMSAxFTv1Up/uploaded-1775122284697-otgz48g4.jpg", reviewCount: "Educating Mbaise youth" },
-        { id: "p3", brand: "Healthcare", name: "Facility Renovations", price: "Ongoing", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/people-volunteering-donating-facility_23-2148687311.jpg", reviewCount: "Healthier" },
+        { id: "p1", brand: "Clean Water", name: "Clean Water & Sanitation", price: "Critical Infrastructure", rating: 5, imageSrc: "https://images.unsplash.com/photo-1585464295907-7d34639910d5?q=80&w=1200&auto=format&fit=crop", imageAlt: "Clean water access initiative" },
+        { id: "p2", brand: "Education", name: "Quality Education", price: "Empowering Youth", rating: 5, imageSrc: "https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=1200&auto=format&fit=crop", imageAlt: "Quality education in Mbaise" },
+        { id: "p3", brand: "Health", name: "Good Health", price: "Community Well-being", rating: 5, imageSrc: "https://images.unsplash.com/photo-1579684385127-1d15d5b85571?q=80&w=1200&auto=format&fit=crop", imageAlt: "Good health initiative" },
       ]}
-      title="Signature Initiatives"
-      description="Key infrastructure projects driving growth in Mbaise. We have successfully installed a solar-powered water project in Eziudo, Ezinihitte Mbaise, and are actively replicating this model and computer learning hubs across all three local government areas to ensure community-wide development."
+      title="Our Core Initiatives"
+      description="We are dedicated to driving impactful change through five key initiatives that address the most pressing needs of the Mbaise community."
     />
   </div>
 
@@ -113,8 +115,6 @@ export default function LandingPage() {
         { id: "t1", name: "Chief Okeke", handle: "Community Elder", testimonial: "The solar water project has completely transformed our daily lives. MCGI's commitment to our welfare is unmatched.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-smiley-woman-work_23-2149097959.jpg" },
         { id: "t2", name: "Chinaza Obi", handle: "Student Representative", testimonial: "The computer center opened doors for my studies that I never thought possible in my village.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/young-girl-eyeglasses-dreamily-looks-up-happy-tanned-teenager-striped-shirt-smiles-poses-orange-background_197531-27596.jpg" },
         { id: "t3", name: "Mrs. Nneka", handle: "Community Advocate", testimonial: "Seeing the renovation of our local health facility gives me hope for a healthier future for all our families.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-beautiful-brunette-female-wearing-working-clothes-apron-standing-workshop_613910-5811.jpg" },
-        { id: "t4", name: "Emeka John", handle: "Project Lead", testimonial: "Working with MCGI has shown me the true power of diaspora and home collaboration.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/group-happy-diverse-volunteers_53876-13556.jpg?_wi=1" },
-        { id: "t5", name: "Adaeze Ugo", handle: "Community Liaison", testimonial: "MCGI's presence has bridged the gap between our traditions and the modern world.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/group-happy-diverse-volunteers_53876-13556.jpg?_wi=2" },
       ]}
       showRating={true}
       title="Voices of the Community"
@@ -135,7 +135,7 @@ export default function LandingPage() {
       title="Frequently Asked Questions"
       description="Find answers to common inquiries about our organization and global initiatives."
       faqsAnimation="blur-reveal"
-      imageSrc="http://img.b2bpic.net/free-photo/women-preparing-box-with-food-donation_23-2148613309.jpg?_wi=2"
+      imageSrc="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=1200&auto=format&fit=crop"
       mediaAnimation="blur-reveal"
     />
   </div>
