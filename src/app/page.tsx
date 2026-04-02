@@ -85,11 +85,11 @@ export default function LandingPage() {
       title="Groundbreaking Ceremony"
       description="Highlights from the groundbreaking event for the new Mbaise Signature Complex (Resource Center), a milestone for our community's future."
       products={[
-        { id: "g1", brand: "Ceremony", name: "Setting the Stage", price: "Groundbreaking", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BnL2MQ9gSRG06ozeMSAxFTv1Up/uploaded-1775124118753-5wrzgqrk.jpg" },
-        { id: "g2", brand: "Community", name: "Local Leaders Present", price: "Groundbreaking", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BnL2MQ9gSRG06ozeMSAxFTv1Up/uploaded-1775124118753-cht8tyn7.jpg" },
-        { id: "g3", brand: "Innovation", name: "Resource Center Site", price: "Groundbreaking", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BnL2MQ9gSRG06ozeMSAxFTv1Up/uploaded-1775124118753-ro40sc1b.jpg" },
-        { id: "g4", brand: "Vision", name: "Project Launch", price: "Groundbreaking", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BnL2MQ9gSRG06ozeMSAxFTv1Up/uploaded-1775124118754-vpyty01j.jpg" },
-        { id: "g5", brand: "Future", name: "Community Hope", price: "Groundbreaking", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BnL2MQ9gSRG06ozeMSAxFTv1Up/uploaded-1775124118754-tnba45u1.jpg" },
+        { id: "g1", brand: "Ceremony", name: "Setting the Stage", price: "Groundbreaking", rating: 5, reviewCount: "100", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BnL2MQ9gSRG06ozeMSAxFTv1Up/uploaded-1775124118753-5wrzgqrk.jpg" },
+        { id: "g2", brand: "Community", name: "Local Leaders Present", price: "Groundbreaking", rating: 5, reviewCount: "100", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BnL2MQ9gSRG06ozeMSAxFTv1Up/uploaded-1775124118753-cht8tyn7.jpg" },
+        { id: "g3", brand: "Innovation", name: "Resource Center Site", price: "Groundbreaking", rating: 5, reviewCount: "100", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BnL2MQ9gSRG06ozeMSAxFTv1Up/uploaded-1775124118753-ro40sc1b.jpg" },
+        { id: "g4", brand: "Vision", name: "Project Launch", price: "Groundbreaking", rating: 5, reviewCount: "100", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BnL2MQ9gSRG06ozeMSAxFTv1Up/uploaded-1775124118754-vpyty01j.jpg" },
+        { id: "g5", brand: "Future", name: "Community Hope", price: "Groundbreaking", rating: 5, reviewCount: "100", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BnL2MQ9gSRG06ozeMSAxFTv1Up/uploaded-1775124118754-tnba45u1.jpg" },
       ]}
     />
   </div>
@@ -115,9 +115,9 @@ export default function LandingPage() {
       gridVariant="three-columns-all-equal-width"
       useInvertedBackground={false}
       products={[
-        { id: "p1", brand: "Clean Water", name: "Clean Water & Sanitation", price: "Critical Infrastructure", rating: 5, reviewCount: "120 reviews", imageSrc: "https://images.unsplash.com/photo-1585464295907-7d34639910d5?q=80&w=1200&auto=format&fit=crop", imageAlt: "Clean water access initiative" },
-        { id: "p2", brand: "Education", name: "Quality Education", price: "Empowering Youth", rating: 5, reviewCount: "85 reviews", imageSrc: "https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=1200&auto=format&fit=crop", imageAlt: "Quality education in Mbaise" },
-        { id: "p3", brand: "Health", name: "Good Health", price: "Community Well-being", rating: 5, reviewCount: "95 reviews", imageSrc: "https://images.unsplash.com/photo-1579684385127-1d15d5b85571?q=80&w=1200&auto=format&fit=crop", imageAlt: "Good health initiative" },
+        { id: "p1", brand: "Clean Water", name: "Clean Water & Sanitation", price: "Critical Infrastructure", rating: 5, reviewCount: "120", imageSrc: "https://images.unsplash.com/photo-1585464295907-7d34639910d5?q=80&w=1200&auto=format&fit=crop", imageAlt: "Clean water access initiative" },
+        { id: "p2", brand: "Education", name: "Quality Education", price: "Empowering Youth", rating: 5, reviewCount: "85", imageSrc: "https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=1200&auto=format&fit=crop", imageAlt: "Quality education in Mbaise" },
+        { id: "p3", brand: "Health", name: "Good Health", price: "Community Well-being", rating: 5, reviewCount: "95", imageSrc: "https://images.unsplash.com/photo-1579684385127-1d15d5b85571?q=80&w=1200&auto=format&fit=crop", imageAlt: "Good health initiative" },
       ]}
       title="Our Core Initiatives"
       description="We are dedicated to driving impactful change through five key initiatives that address the most pressing needs of the Mbaise community."
