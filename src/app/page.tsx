@@ -97,9 +97,9 @@ export default function LandingPage() {
       gridVariant="three-columns-all-equal-width"
       useInvertedBackground={false}
       products={[
-        { id: "p1", brand: "Clean Water", name: "Clean Water & Sanitation", price: "Critical Infrastructure", rating: 5, imageSrc: "https://images.unsplash.com/photo-1585464295907-7d34639910d5?q=80&w=1200&auto=format&fit=crop", imageAlt: "Clean water access initiative" },
-        { id: "p2", brand: "Education", name: "Quality Education", price: "Empowering Youth", rating: 5, imageSrc: "https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=1200&auto=format&fit=crop", imageAlt: "Quality education in Mbaise" },
-        { id: "p3", brand: "Health", name: "Good Health", price: "Community Well-being", rating: 5, imageSrc: "https://images.unsplash.com/photo-1579684385127-1d15d5b85571?q=80&w=1200&auto=format&fit=crop", imageAlt: "Good health initiative" },
+        { id: "p1", brand: "Clean Water", name: "Clean Water & Sanitation", price: "Critical Infrastructure", rating: 5, reviewCount: "120 reviews", imageSrc: "https://images.unsplash.com/photo-1585464295907-7d34639910d5?q=80&w=1200&auto=format&fit=crop", imageAlt: "Clean water access initiative" },
+        { id: "p2", brand: "Education", name: "Quality Education", price: "Empowering Youth", rating: 5, reviewCount: "85 reviews", imageSrc: "https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=1200&auto=format&fit=crop", imageAlt: "Quality education in Mbaise" },
+        { id: "p3", brand: "Health", name: "Good Health", price: "Community Well-being", rating: 5, reviewCount: "95 reviews", imageSrc: "https://images.unsplash.com/photo-1579684385127-1d15d5b85571?q=80&w=1200&auto=format&fit=crop", imageAlt: "Good health initiative" },
       ]}
       title="Our Core Initiatives"
       description="We are dedicated to driving impactful change through five key initiatives that address the most pressing needs of the Mbaise community."
