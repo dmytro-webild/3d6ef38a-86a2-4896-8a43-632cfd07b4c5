@@ -47,9 +47,9 @@ export default function LandingPage() {
       <HeroLogoBillboardSplit
       background={{ variant: "plain" }}
       logoText="MCGI"
-      description="Immediate action is needed to secure reliable water and quality education for Mbaise. Your support directly funds essential infrastructure, transforming lives and building a sustainable foundation for our community’s future—join us in making a tangible difference today."
+      description="Empower every Mbaise citizen with the sustainable infrastructure and resources they need to thrive. By supporting our mission today, you are fueling tangible community transformation and securing a brighter, prosperous future for our people."
       buttons={[
-        { text: "Support Our Mission", href: "#contact" },
+        { text: "Invest in Mbaise's Future", href: "#contact" },
         { text: "Learn More", href: "#about" },
       ]}
       layoutOrder="default"
