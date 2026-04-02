@@ -11,7 +11,7 @@ import MetricSplitMediaAbout from '@/components/sections/about/MetricSplitMediaA
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import ProductCardTwo from '@/components/sections/product/ProductCardTwo';
 import TestimonialCardThirteen from '@/components/sections/testimonial/TestimonialCardThirteen';
-import { Mail } from "lucide-react";
+import { Mail, Phone, MapPin } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -34,6 +34,7 @@ export default function LandingPage() {
         { name: "Home", id: "hero" },
         { name: "About", id: "about" },
         { name: "Projects", id: "projects" },
+        { name: "FAQ", id: "faq" },
         { name: "Contact", id: "contact" },
       ]}
       brandName="MCGI"
@@ -122,14 +123,15 @@ export default function LandingPage() {
   <div id="faq" data-section="faq">
       <FaqSplitMedia
       textboxLayout="split"
-      useInvertedBackground={false}
+      useInvertedBackground={true}
       faqs={[
         { id: "q1", title: "Who can join MCGI?", content: "MCGI welcomes all Mbaise indigenes at home and in the diaspora who share our commitment to positive growth." },
         { id: "q2", title: "How can I support projects?", content: "You can support us through donations, volunteering your expertise, or joining our global network chapters." },
         { id: "q3", title: "What is the Signature Centre Project?", content: "It is our landmark project to build a multifunctional hub for education, commerce, and innovation." },
+        { id: "q4", title: "Is MCGI registered?", content: "Yes, MCGI is a fully registered global non-profit entity dedicated to transparency and accountability." }
       ]}
       title="Frequently Asked Questions"
-      description="Answers about our mission and how you can support."
+      description="Find answers to common inquiries about our organization and global initiatives."
       faqsAnimation="blur-reveal"
       imageSrc="http://img.b2bpic.net/free-photo/women-preparing-box-with-food-donation_23-2148613309.jpg?_wi=2"
       mediaAnimation="blur-reveal"
@@ -141,7 +143,8 @@ export default function LandingPage() {
       animationType="slide-up"
       useInvertedBackground={false}
       faqs={[
-        { id: "f1", title: "Contact Details", content: "Email: info@mcgi.org | Headquarters: Mbaise, Imo State." },
+        { id: "f1", title: "Membership", content: "Register via our online portal to get your membership ID and access our global network." },
+        { id: "f2", title: "Volunteer", content: "Reach out to our local coordinators to get involved in ongoing community development projects." },
       ]}
       ctaTitle="Let's Connect"
       ctaDescription="Join our network and help us build a stronger Mbaise. Your support makes a real difference."
@@ -154,17 +157,17 @@ export default function LandingPage() {
       <FooterSimple
       columns={[
         {
-          title: "Initiative",          items: [{ label: "About Us", href: "#about" }, { label: "Projects", href: "#projects" }],
+          title: "Organization",          items: [{ label: "About Us", href: "#about" }, { label: "Our Mission", href: "#about" }, { label: "Leadership", href: "#about" }],
         },
         {
-          title: "Connect",          items: [{ label: "Facebook", href: "#" }, { label: "Twitter", href: "#" }],
+          title: "Resources",          items: [{ label: "Projects", href: "#projects" }, { label: "FAQ", href: "#faq" }, { label: "Privacy", href: "#" }],
         },
         {
-          title: "Legal",          items: [{ label: "Privacy Policy", href: "#" }],
+          title: "Support",          items: [{ label: "Contact Us", href: "#contact" }, { label: "Donate", href: "#contact" }, { label: "Volunteer", href: "#contact" }],
         },
       ]}
       bottomLeftText="© 2024 Mbaise Connect Global Initiative"
-      bottomRightText="Built for Community Growth"
+      bottomRightText="Empowering Our Community Together"
     />
   </div>
       </ReactLenis>
