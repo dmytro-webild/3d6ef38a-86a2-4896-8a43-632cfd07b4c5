@@ -148,6 +148,7 @@ export default function LandingPage() {
       <FaqSplitMedia
       textboxLayout="split"
       useInvertedBackground={true}
+      buttons={[{ text: "Learn More", href: "/about" }, { text: "Support Us", href: "/donate" }]}
       faqs={[
         { id: "q1", title: "Who can join MCGI?", content: "MCGI welcomes all Mbaise indigenes at home and in the diaspora who share our commitment to positive growth." },
         { id: "q2", title: "How can I support projects?", content: "You can support us through donations, volunteering your expertise, or joining our global network chapters." },
