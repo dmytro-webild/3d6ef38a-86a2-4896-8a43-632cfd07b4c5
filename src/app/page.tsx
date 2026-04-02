@@ -76,6 +76,24 @@ export default function LandingPage() {
     />
   </div>
 
+  <div id="gallery" data-section="gallery">
+      <ProductCardTwo
+      animationType="slide-up"
+      textboxLayout="split"
+      gridVariant="four-items-2x2-equal-grid"
+      useInvertedBackground={true}
+      title="Groundbreaking Ceremony"
+      description="Highlights from the groundbreaking event for the new Mbaise Signature Complex (Resource Center), a milestone for our community's future."
+      products={[
+        { id: "g1", brand: "Ceremony", name: "Setting the Stage", price: "Groundbreaking", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BnL2MQ9gSRG06ozeMSAxFTv1Up/uploaded-1775124118753-5wrzgqrk.jpg" },
+        { id: "g2", brand: "Community", name: "Local Leaders Present", price: "Groundbreaking", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BnL2MQ9gSRG06ozeMSAxFTv1Up/uploaded-1775124118753-cht8tyn7.jpg" },
+        { id: "g3", brand: "Innovation", name: "Resource Center Site", price: "Groundbreaking", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BnL2MQ9gSRG06ozeMSAxFTv1Up/uploaded-1775124118753-ro40sc1b.jpg" },
+        { id: "g4", brand: "Vision", name: "Project Launch", price: "Groundbreaking", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BnL2MQ9gSRG06ozeMSAxFTv1Up/uploaded-1775124118754-vpyty01j.jpg" },
+        { id: "g5", brand: "Future", name: "Community Hope", price: "Groundbreaking", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BnL2MQ9gSRG06ozeMSAxFTv1Up/uploaded-1775124118754-tnba45u1.jpg" },
+      ]}
+    />
+  </div>
+
   <div id="metrics" data-section="metrics">
       <MetricCardFourteen
       useInvertedBackground={false}
