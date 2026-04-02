@@ -96,11 +96,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       products={[
         { id: "p1", brand: "Solar-Powered Water", name: "Eziudo, Ezinihitte Mbaise", price: "Installation Completed", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BnL2MQ9gSRG06ozeMSAxFTv1Up/uploaded-1775121730804-8tpjiwn0.jpg", reviewCount: "Replicating in Other Mbaise Communities" },
-        { id: "p2", brand: "Education", name: "Computer Learning Centers", price: "Active", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BnL2MQ9gSRG06ozeMSAxFTv1Up/uploaded-1775121730804-hiodgkh4.jpg", reviewCount: "Educating" },
+        { id: "p2", brand: "Education", name: "Computer Learning Centers & Renovations", price: "Active", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BnL2MQ9gSRG06ozeMSAxFTv1Up/uploaded-1775122284697-otgz48g4.jpg", reviewCount: "Educating Mbaise youth" },
         { id: "p3", brand: "Healthcare", name: "Facility Renovations", price: "Ongoing", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/people-volunteering-donating-facility_23-2148687311.jpg", reviewCount: "Healthier" },
       ]}
       title="Signature Initiatives"
-      description="Key infrastructure projects driving growth in Mbaise. We have successfully installed a solar-powered water project in Eziudo, Ezinihitte Mbaise, and are actively replicating this model to ensure clean water access across all Mbaise communities."
+      description="Key infrastructure projects driving growth in Mbaise. We have successfully installed a solar-powered water project in Eziudo, Ezinihitte Mbaise, and are actively replicating this model and computer learning hubs across all three local government areas to ensure community-wide development."
     />
   </div>
 
