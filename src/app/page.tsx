@@ -94,7 +94,7 @@ export default function LandingPage() {
           title: "Diaspora Network",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/women-preparing-box-with-food-donation_23-2148613309.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/women-preparing-box-with-food-donation_23-2148613309.jpg?_wi=1"
       mediaAnimation="slide-up"
       metricsAnimation="slide-up"
     />
@@ -201,7 +201,7 @@ export default function LandingPage() {
           handle: "@volunteer",
           testimonial: "Working with MCGI has shown me the true power of diaspora and home collaboration.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/group-happy-diverse-volunteers_53876-13556.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/group-happy-diverse-volunteers_53876-13556.jpg?_wi=1",
         },
         {
           id: "t5",
@@ -209,7 +209,7 @@ export default function LandingPage() {
           handle: "@community-member",
           testimonial: "MCGI's presence has bridged the gap between our traditions and the modern world.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/group-happy-diverse-volunteers_53876-13556.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/group-happy-diverse-volunteers_53876-13556.jpg?_wi=2",
         },
       ]}
       showRating={true}
@@ -242,7 +242,7 @@ export default function LandingPage() {
       title="Frequently Asked Questions"
       description="Answers about our mission and how you can support."
       faqsAnimation="blur-reveal"
-      imageSrc="http://img.b2bpic.net/free-photo/women-preparing-box-with-food-donation_23-2148613309.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/women-preparing-box-with-food-donation_23-2148613309.jpg?_wi=2"
       mediaAnimation="blur-reveal"
     />
   </div>
