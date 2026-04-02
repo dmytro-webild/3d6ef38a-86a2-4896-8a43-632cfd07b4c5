@@ -11,7 +11,7 @@ import MetricSplitMediaAbout from '@/components/sections/about/MetricSplitMediaA
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import ProductCardTwo from '@/components/sections/product/ProductCardTwo';
 import TestimonialCardThirteen from '@/components/sections/testimonial/TestimonialCardThirteen';
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Mail } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -32,9 +32,11 @@ export default function LandingPage() {
       <NavbarStyleApple
       navItems={[
         { name: "Home", id: "hero" },
-        { name: "About", id: "about" },
-        { name: "Projects", id: "projects" },
-        { name: "FAQ", id: "faq" },
+        { name: "Quality Education", id: "quality-education" },
+        { name: "Poverty Alleviation", id: "poverty-alleviation" },
+        { name: "Good Health", id: "good-health" },
+        { name: "Clean Water & Sanitization", id: "clean-water" },
+        { name: "Socio Economic Transformation", id: "socio-economic-transformation" },
         { name: "Contact", id: "contact" },
       ]}
       brandName="MCGI"
@@ -144,7 +146,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       faqs={[
         { id: "f1", title: "Membership", content: "Register via our online portal to get your membership ID and access our global network." },
-        { id: "f2", title: "Volunteer", content: "Reach out to our local coordinators to get involved in ongoing community development projects." },
+        { id: "f2", title: "Volunteer", content: "Reach out to our local coordinators to get involved in ongoing community development projects."},
       ]}
       ctaTitle="Let's Connect"
       ctaDescription="Join our network and help us build a stronger Mbaise. Your support makes a real difference."
