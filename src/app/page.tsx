@@ -63,14 +63,14 @@ export default function LandingPage() {
       <MetricSplitMediaAbout
       useInvertedBackground={false}
       title="Advancing Development in Mbaise"
-      description="Founded on principles of unity and service, MCGI unites Mbaise indigenes across 70+ countries. We drive socio-economic advancement, education, and healthcare through collective global action."
+      description="Founded on principles of unity and service, MCGI unites Mbaise indigenes across 70+ countries. We drive socio-economic advancement, education, and healthcare through collective global action. Our Economic Transformation Initiative now includes the ongoing Mbaise Resource Center, which provides targeted skill acquisition and empowerment programs to create sustainable livelihoods for our youth."
       metrics={[
         { value: "70+", title: "Countries Served" },
         { value: "100%", title: "Community Focus" },
         { value: "Global", title: "Diaspora Network" },
       ]}
-      imageSrc="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=2000&auto=format&fit=crop"
-      imageAlt="Socio-economic transformation project"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BnL2MQ9gSRG06ozeMSAxFTv1Up/uploaded-1775122590722-hvvg1rxw.jpg"
+      imageAlt="Mbaise Resource Center for skill acquisition and empowerment"
       mediaAnimation="slide-up"
       metricsAnimation="slide-up"
     />
