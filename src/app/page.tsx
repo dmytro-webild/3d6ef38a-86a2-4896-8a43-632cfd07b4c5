@@ -65,7 +65,7 @@ export default function LandingPage() {
         { value: "100%", title: "Community Focus" },
         { value: "Global", title: "Diaspora Network" },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/women-preparing-box-with-food-donation_23-2148613309.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/women-preparing-box-with-food-donation_23-2148613309.jpg?_wi=1"
       mediaAnimation="slide-up"
       metricsAnimation="slide-up"
     />
@@ -110,8 +110,8 @@ export default function LandingPage() {
         { id: "t1", name: "Chief Okeke", handle: "@local-leader", testimonial: "The solar water project has completely transformed our daily lives. MCGI's commitment to our welfare is unmatched.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-smiley-woman-work_23-2149097959.jpg" },
         { id: "t2", name: "Chinaza Obi", handle: "@student", testimonial: "The computer center opened doors for my studies that I never thought possible in my village.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/young-girl-eyeglasses-dreamily-looks-up-happy-tanned-teenager-striped-shirt-smiles-poses-orange-background_197531-27596.jpg" },
         { id: "t3", name: "Mrs. Nneka", handle: "@local-member", testimonial: "Seeing the renovation of our local health facility gives me hope for a healthier future for all our families.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-beautiful-brunette-female-wearing-working-clothes-apron-standing-workshop_613910-5811.jpg" },
-        { id: "t4", name: "Emeka John", handle: "@volunteer", testimonial: "Working with MCGI has shown me the true power of diaspora and home collaboration.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/group-happy-diverse-volunteers_53876-13556.jpg" },
-        { id: "t5", name: "Adaeze Ugo", handle: "@community-member", testimonial: "MCGI's presence has bridged the gap between our traditions and the modern world.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/group-happy-diverse-volunteers_53876-13556.jpg" },
+        { id: "t4", name: "Emeka John", handle: "@volunteer", testimonial: "Working with MCGI has shown me the true power of diaspora and home collaboration.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/group-happy-diverse-volunteers_53876-13556.jpg?_wi=1" },
+        { id: "t5", name: "Adaeze Ugo", handle: "@community-member", testimonial: "MCGI's presence has bridged the gap between our traditions and the modern world.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/group-happy-diverse-volunteers_53876-13556.jpg?_wi=2" },
       ]}
       showRating={true}
       title="Voices of the Community"
@@ -131,7 +131,7 @@ export default function LandingPage() {
       title="Frequently Asked Questions"
       description="Answers about our mission and how you can support."
       faqsAnimation="blur-reveal"
-      imageSrc="http://img.b2bpic.net/free-photo/women-preparing-box-with-food-donation_23-2148613309.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/women-preparing-box-with-food-donation_23-2148613309.jpg?_wi=2"
       mediaAnimation="blur-reveal"
     />
   </div>
