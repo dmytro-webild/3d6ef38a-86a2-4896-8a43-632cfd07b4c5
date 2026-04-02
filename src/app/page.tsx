@@ -53,8 +53,8 @@ export default function LandingPage() {
         { text: "Learn More", href: "#about" },
       ]}
       layoutOrder="default"
-      imageSrc="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=2000&auto=format&fit=crop"
-      imageAlt="Quality education initiative in Mbaise"
+      imageSrc="https://images.unsplash.com/photo-1546410531-bb4caa6b424d?q=80&w=2000&auto=format&fit=crop"
+      imageAlt="Nigerian classroom setting with students"
       mediaAnimation="blur-reveal"
     />
   </div>
@@ -69,8 +69,8 @@ export default function LandingPage() {
         { value: "100%", title: "Community Focus" },
         { value: "Global", title: "Diaspora Network" },
       ]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BnL2MQ9gSRG06ozeMSAxFTv1Up/uploaded-1775122590722-hvvg1rxw.jpg"
-      imageAlt="Mbaise Resource Center for skill acquisition and empowerment"
+      imageSrc="https://images.unsplash.com/photo-1577896851231-70718772d1f2?q=80&w=2000&auto=format&fit=crop"
+      imageAlt="Children engaged in learning in a Nigerian school"
       mediaAnimation="slide-up"
       metricsAnimation="slide-up"
     />
@@ -85,11 +85,11 @@ export default function LandingPage() {
       title="Groundbreaking Ceremony"
       description="Highlights from the groundbreaking event for the new Mbaise Signature Complex (Resource Center), a milestone for our community's future."
       products={[
-        { id: "g1", brand: "Ceremony", name: "Setting the Stage", price: "Groundbreaking", rating: 5, reviewCount: "100", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BnL2MQ9gSRG06ozeMSAxFTv1Up/uploaded-1775124118753-5wrzgqrk.jpg" },
-        { id: "g2", brand: "Community", name: "Local Leaders Present", price: "Groundbreaking", rating: 5, reviewCount: "100", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BnL2MQ9gSRG06ozeMSAxFTv1Up/uploaded-1775124118753-cht8tyn7.jpg" },
-        { id: "g3", brand: "Innovation", name: "Resource Center Site", price: "Groundbreaking", rating: 5, reviewCount: "100", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BnL2MQ9gSRG06ozeMSAxFTv1Up/uploaded-1775124118753-ro40sc1b.jpg" },
-        { id: "g4", brand: "Vision", name: "Project Launch", price: "Groundbreaking", rating: 5, reviewCount: "100", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BnL2MQ9gSRG06ozeMSAxFTv1Up/uploaded-1775124118754-vpyty01j.jpg" },
-        { id: "g5", brand: "Future", name: "Community Hope", price: "Groundbreaking", rating: 5, reviewCount: "100", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BnL2MQ9gSRG06ozeMSAxFTv1Up/uploaded-1775124118754-tnba45u1.jpg" },
+        { id: "g1", brand: "Ceremony", name: "Setting the Stage", price: "Groundbreaking", rating: 5, reviewCount: "100", imageSrc: "https://images.unsplash.com/photo-1594903332560-f3898144061a?q=80&w=800&auto=format&fit=crop" },
+        { id: "g2", brand: "Community", name: "Local Leaders Present", price: "Groundbreaking", rating: 5, reviewCount: "100", imageSrc: "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?q=80&w=800&auto=format&fit=crop" },
+        { id: "g3", brand: "Innovation", name: "Resource Center Site", price: "Groundbreaking", rating: 5, reviewCount: "100", imageSrc: "https://images.unsplash.com/photo-1577896851231-70718772d1f2?q=80&w=800&auto=format&fit=crop" },
+        { id: "g4", brand: "Vision", name: "Project Launch", price: "Groundbreaking", rating: 5, reviewCount: "100", imageSrc: "https://images.unsplash.com/photo-1590486803833-9c3dbb601614?q=80&w=800&auto=format&fit=crop" },
+        { id: "g5", brand: "Future", name: "Community Hope", price: "Groundbreaking", rating: 5, reviewCount: "100", imageSrc: "https://images.unsplash.com/photo-1582845512347-36e11e8623b3?q=80&w=800&auto=format&fit=crop" },
       ]}
     />
   </div>
@@ -116,7 +116,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       products={[
         { id: "p1", brand: "Clean Water", name: "Clean Water & Sanitation", price: "Critical Infrastructure", rating: 5, reviewCount: "120", imageSrc: "https://images.unsplash.com/photo-1585464295907-7d34639910d5?q=80&w=1200&auto=format&fit=crop", imageAlt: "Clean water access initiative" },
-        { id: "p2", brand: "Education", name: "Quality Education", price: "Empowering Youth", rating: 5, reviewCount: "85", imageSrc: "https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=1200&auto=format&fit=crop", imageAlt: "Quality education in Mbaise" },
+        { id: "p2", brand: "Education", name: "Quality Education", price: "Empowering Youth", rating: 5, reviewCount: "85", imageSrc: "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?q=80&w=1200&auto=format&fit=crop", imageAlt: "Classroom learning in Mbaise" },
         { id: "p3", brand: "Health", name: "Good Health", price: "Community Well-being", rating: 5, reviewCount: "95", imageSrc: "https://images.unsplash.com/photo-1579684385127-1d15d5b85571?q=80&w=1200&auto=format&fit=crop", imageAlt: "Good health initiative" },
       ]}
       title="Our Core Initiatives"
@@ -153,7 +153,7 @@ export default function LandingPage() {
       title="Frequently Asked Questions"
       description="Find answers to common inquiries about our organization and global initiatives."
       faqsAnimation="blur-reveal"
-      imageSrc="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=1200&auto=format&fit=crop"
+      imageSrc="https://images.unsplash.com/photo-1590486803833-9c3dbb601614?q=80&w=1200&auto=format&fit=crop"
       mediaAnimation="blur-reveal"
     />
   </div>
