@@ -5,7 +5,7 @@ import ReactLenis from "lenis/react";
 import ContactFaq from '@/components/sections/contact/ContactFaq';
 import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
 import FooterSimple from '@/components/sections/footer/FooterSimple';
-import HeroLogoBillboardSplit from '@/components/sections/hero/HeroLogoBillboardSplit';
+import TimelinePhoneView from '@/components/cardStack/layouts/timelines/TimelinePhoneView';
 import MetricCardFourteen from '@/components/sections/metrics/MetricCardFourteen';
 import MetricSplitMediaAbout from '@/components/sections/about/MetricSplitMediaAbout';
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
@@ -44,18 +44,21 @@ export default function LandingPage() {
   </div>
 
   <div id="hero" data-section="hero">
-      <HeroLogoBillboardSplit
-      background={{ variant: "plain" }}
-      logoText="MCGI"
-      description="Empower every Mbaise citizen with the sustainable infrastructure and resources they need to thrive. By supporting our mission today, you are fueling tangible community transformation and securing a brighter, prosperous future for our people."
-      buttons={[
-        { text: "Invest in Mbaise's Future", href: "#contact" },
-        { text: "Learn More", href: "#about" },
+      <TimelinePhoneView
+      title="Resource Center Highlights"
+      description="Our state-of-the-art facility serving the Mbaise community as a central hub for innovation and growth."
+      textboxLayout="split"
+      items={[
+        {
+          trigger: "Phase 1: Foundation",          content: "Groundbreaking of the Mbaise Signature Complex, creating the foundation for our digital and physical learning hub.",          imageOne: "https://images.unsplash.com/photo-1594903332560-f3898144061a?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          trigger: "Phase 2: Innovation",          content: "Deployment of high-speed connectivity and modern educational tools to empower local youth.",          imageOne: "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          trigger: "Phase 3: Community",          content: "Opening our doors to community leaders and students to foster socio-economic transformation.",          imageOne: "https://images.unsplash.com/photo-1577896851231-70718772d1f2?q=80&w=800&auto=format&fit=crop"
+        }
       ]}
-      layoutOrder="default"
-      imageSrc="https://images.unsplash.com/photo-1546410531-bb4caa6b424d?q=80&w=2000&auto=format&fit=crop"
-      imageAlt="Nigerian classroom setting with students"
-      mediaAnimation="blur-reveal"
     />
   </div>
 
