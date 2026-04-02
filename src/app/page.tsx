@@ -148,7 +148,7 @@ export default function LandingPage() {
         { id: "f1", title: "Membership", content: "Register via our online portal to get your membership ID and access our global network." },
         { id: "f2", title: "Volunteer", content: "Reach out to our local coordinators to get involved in ongoing community development projects."},
       ]}
-      ctaTitle="Let's Connect"
+      ctaTitle="Join Our Global Mission"
       ctaDescription="Join our network and help us build a stronger Mbaise. Your support makes a real difference."
       ctaButton={{ text: "Become a Member Today", href: "mailto:info@mcgi.org" }}
       ctaIcon={Mail}
