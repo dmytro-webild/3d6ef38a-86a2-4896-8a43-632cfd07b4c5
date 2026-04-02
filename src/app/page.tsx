@@ -150,7 +150,7 @@ export default function LandingPage() {
       ]}
       ctaTitle="Join Our Global Mission"
       ctaDescription="Join our network and help us build a stronger Mbaise. Your support makes a real difference."
-      ctaButton={{ text: "Register Now", href: "mailto:info@mcgi.org" }}
+      ctaButton={{ text: "Become a Member", href: "mailto:info@mcgi.org" }}
       ctaIcon={Mail}
     />
   </div>
