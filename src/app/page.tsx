@@ -130,9 +130,9 @@ export default function LandingPage() {
       textboxLayout="split-description"
       useInvertedBackground={false}
       testimonials={[
-        { id: "t1", name: "Chief Okeke", handle: "Elder, Ahiazu Mbaise", testimonial: "The solar water project has completely transformed our daily lives. MCGI's commitment to our welfare is unmatched.", rating: 5, imageSrc: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=400&auto=format&fit=crop" },
-        { id: "t2", name: "Chinaza Obi", handle: "STEM Scholar, Mbaise High", testimonial: "The computer center opened doors for my studies that I never thought possible in my village.", rating: 5, imageSrc: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=400&auto=format&fit=crop" },
-        { id: "t3", name: "Mrs. Nneka", handle: "Chair, Health Initiative", testimonial: "Seeing the renovation of our local health facility gives me hope for a healthier future for all our families.", rating: 5, imageSrc: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=400&auto=format&fit=crop" },
+        { id: "t1", name: "Chief Okeke", handle: "Elder, Ahiazu Mbaise", testimonial: "The solar water project has completely transformed our daily lives. MCGI's commitment to our welfare is unmatched.", rating: 5, imageSrc: "https://images.unsplash.com/photo-1589445136939-509a25b271d4?q=80&w=400&auto=format&fit=crop" },
+        { id: "t2", name: "Chinaza Obi", handle: "STEM Scholar, Mbaise High", testimonial: "The computer center opened doors for my studies that I never thought possible in my village.", rating: 5, imageSrc: "https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a?q=80&w=400&auto=format&fit=crop" },
+        { id: "t3", name: "Mrs. Nneka", handle: "Chair, Health Initiative", testimonial: "Seeing the renovation of our local health facility gives me hope for a healthier future for all our families.", rating: 5, imageSrc: "https://images.unsplash.com/photo-1582233479366-6d38bc396a00?q=80&w=400&auto=format&fit=crop" },
       ]}
       showRating={true}
       title="Voices of the Community"
@@ -153,7 +153,7 @@ export default function LandingPage() {
       title="Frequently Asked Questions"
       description="Find answers to common inquiries about our organization and global initiatives."
       faqsAnimation="blur-reveal"
-      imageSrc="https://images.unsplash.com/photo-1590486803833-9c3dbb601614?q=80&w=1200&auto=format&fit=crop"
+      imageSrc="https://images.unsplash.com/photo-1582233479366-6d38bc396a00?q=80&w=1200&auto=format&fit=crop"
       mediaAnimation="blur-reveal"
     />
   </div>
