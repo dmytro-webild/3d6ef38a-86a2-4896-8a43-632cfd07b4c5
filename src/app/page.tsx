@@ -80,7 +80,7 @@ export default function LandingPage() {
       <ProductCardTwo
       animationType="slide-up"
       textboxLayout="split"
-      gridVariant="four-items-2x2-equal-grid"
+      gridVariant="three-columns-all-equal-width"
       useInvertedBackground={true}
       title="Groundbreaking Ceremony"
       description="Highlights from the groundbreaking event for the new Mbaise Signature Complex (Resource Center), a milestone for our community's future."
