@@ -45,7 +45,7 @@ export default function LandingPage() {
       <HeroLogoBillboardSplit
       background={{ variant: "plain" }}
       logoText="MCGI"
-      description="Your contribution directly funds essential solar water, education, and health infrastructure, creating an immediate, measurable improvement in the quality of life for Mbaise families today."
+      description="Join our mission to empower Mbaise families today. Your support funds critical solar water and education infrastructure, delivering immediate, life-changing results for our community—donate or volunteer now to make a lasting impact."
       buttons={[
         { text: "Learn More", href: "#about" },
         { text: "Get Involved", href: "#contact" },
